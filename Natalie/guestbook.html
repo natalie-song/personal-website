@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 	<head>
 	<title>natalie song</title>
@@ -21,10 +20,10 @@
 	<link rel="stylesheet" href="css/easy-responsive-tabs.css">
 	<!-- Theme Style -->
 	<link rel="stylesheet" href="css/style.css">
-
 	</head>
-	<body id="worldview">
-    <h1 id="title">worldview</h1>
+
+  <body id="guestbook">
+    <h1 id="title">guestbook</h1>
 		<!-- Header -->
 		<header id="fh5co-header" role="banner">
 
@@ -35,19 +34,19 @@
 			<div id="fh5co-main-nav">
 			<nav id="fh5co-nav" role="navigation">
 				<ul>
-					<li>
+          <li>
 						<a href="index.html">Home</a>
-					</li>
-					<li>
+          </li>
+          <li>
 						<a href="interests.html">interests</a>
-					</li>
-					<li class="active">
+          </li>
+					<li>
 						<a href="worldview.html">worldview</a>
 					</li>
 					<li>
 						<a href="classes.html">classes</a>
 					</li>
-					<li>
+          <li class="active">
 						<a href="guestbook.html">guestbook</a>
 					</li>
 				</ul>
@@ -57,15 +56,34 @@
 		</header>
 		<!-- Header -->
 
-		<h3 id="question">how was the universe created?</h3>
-			<p id="answer">I believe the universe was created naturally, presumable in the form of the Big Bang, in which a massive blast created all the matter and energy, including time and space. From then, the world developed and evolved until life originated.
-		<h3 id="question">what does it mean to be a human being?</h3>
-			<p id="answer">The meaning of human-ness has many facets. Biologically, it means your genes dictate that you are an organism belonging to the homo sapien species. It is my personal opinion that it is wrong to say that to be human is to feel intense emotion or to love or to be capable of complex thought. There are people who are not capable of these things. They are afflicted with certain ailments that don't allow it. Therefore, the only true, objective meaning of humanity is to be a member of the homo sapien species.</p>
-		<h3 id="question">what happens when you die?</h3>
-			<p id="answer">I would like to think that after you die you are able to go live in paradise or watch over your loved ones from above. But really, that's not what I truly believe. It is my belief that after we die, we - in our bodily form - cease to exist. Our physical bodies rot and deteriorate to nothingness. We are not truly dead though; we live on through the legacy we have created while we were still alive. </p>
-
-		<!-- Main -->
-		<main role="main">
+		<div id="form">
+				<div class="container" id="wrap">
+					  <div class="row">
+				        <div class="col-md-6 col-md-offset-3">
+				            <form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="post" accept-charset="utf-8" class="form" role="form">
+											<legend>sign in on the guestbook</legend>
+				                    <h4>let me know you have visited my webpage!</h4>
+				                    <div class="row">
+				                        <div class="col-xs-6 col-md-6">
+				                            <input id="form1" type="text" name="firstname" value="" class="form-control input-lg" placeholder="first name"  />
+				                            <input id="form1" type="text" name="lastname" value="" class="form-control input-lg" placeholder="last name"  />
+																</div>
+				                    </div>
+														<div class="a">
+															<input type="text" name="email" value="" class="form-control input-lg" placeholder="your email"  />
+														</div>
+														<div class="a">
+															<input type="favorite website" name="favorite website" value="" class="form-control input-lg" placeholder="favorite website"  />
+														</div>
+														<div class="a">
+															<input type="comment" name="comment" value="" class="form-control input-lg" placeholder="comment"  />
+														</div>
+														<button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">add to guestbook</button>
+										</form>
+								</div>
+						</div>
+				</div>
+		</div>
 
 		<!-- jQuery -->
 		<script src="js/jquery-1.10.2.min.js"></script>
